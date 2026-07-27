@@ -1,21 +1,50 @@
 aid: hooked
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hooked.png
 name: Hooked
-description: Hooked is a company surfaced as a portfolio company of 500-global, cowboy-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Hooked is a mobile entertainment company founded in 2015 by Prerna Gupta
+  and Parag Chordia (Telepathic, Inc.) that pioneered the chat-fiction format: bite-sized,
+  suspenseful stories read as simulated text-message conversations. Its flagship Hooked
+  app reached #1 on the App Store and Google Play in more than 25 countries and over
+  100 million viewers, and the company later launched Hooked TV, a short-form mobile
+  video streaming service. Hooked uses data and AI to predict and produce hit short-form
+  content distributed across its own apps and social platforms including TikTok, Instagram,
+  Snapchat, and YouTube. It is backed by 500 Global, Cowboy Ventures, Sound Ventures,
+  The Chernin Group, Founders Fund, and Greylock. Hooked does not currently publish
+  a public API, developer portal, or SDK.'
 url: https://raw.githubusercontent.com/api-evangelist/hooked/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-developer: Telepathic, Inc.
 x-backed-by:
 - 500-global
 - cowboy-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Entertainment
+- Media
+- Streaming
+- Video
+- Mobile
+- Consumer
+- Content
+- Storytelling
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://hooked.co
+- type: TermsOfService
+  url: https://hooked.co/terms
+- type: PrivacyPolicy
+  url: https://hooked.co/privacy
+- type: Support
+  url: https://hooked.co/contact
+- type: AppStore
+  url: https://apps.apple.com/us/app/hooked/id1024818709
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=tv.telepathic.hooked
+- type: DomainSecurity
+  url: security/hooked-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
